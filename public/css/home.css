@@ -1,0 +1,186 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding-top: 50px;
+  color: black;
+  background-color: white;
+}
+
+/* ----------------------------------------------------
+NAVBAR CSS
+----------------------------------------------------*/
+.navbar {
+  background-color:#3C9CC4;
+}
+.navbar-brand img{
+  width: 70px;
+}
+/* Navbar collapsed */
+.overlay {
+  padding: 0;
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* Shown nav bar at full screen */
+.nav-item {
+  padding-left: 50px;
+}
+
+.navbar {
+  height: 100px;
+}
+nav img {
+  width: 100px;
+  padding-right: 10px;
+}
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ------------------------------------------------------
+INSTRODUCTION BANNER
+-----------------------------------------------------------*/
+.image-banner {
+  background-image: url("../images/banner_background.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  /* color: back; */
+  padding: 100px 0;
+}
+
+.text-border {
+  display: inline-block;
+  padding: 30px 40px;
+  font-size: 30px;
+  color: black;
+  border: 2px solid black;
+}
+/* ------------------------------------------------------
+PORTFOLIO SECTION
+----------------------------------------------------------*/
+.projects .row:first-child {
+  padding: 0;
+  margin-top: 60px;
+}
+.projects .row:last-child {
+  padding: 0;
+  margin-bottom: 60px;
+}
+.projects .row {
+  padding:0;
+  margin-top: 30px;
+}
+.col {
+  padding: 0;
+  margin: 0;
+}
+.overlay-p1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container-p1:hover .overlay-p1 {
+  opacity: 0.9;
+}
+
+.text-p1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.p1-img {
+  width: 100%;
+  padding: 0;
+}
+
+/* ------------------------------------------------------
+Footer
+-----------------------------------------------------------*/
+footer {
+  color: white;
+  background-color: #3C9CC4;
+  height: 50px;
+}
+footer .icons {
+  text-align: right;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #E5EFF4;
+  text-decoration: none;
+}
+footer i {
+  margin-right: 30px;
+}

@@ -1,2 +1,2 @@
-# Full-Stack-Personal-Porfolio
+# Personal Portfolio
 Personal portfolio for Mark for employers and those interested in my work

@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-personal-porfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio for Mark for employers and those interested in my work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digald/Full-Stack-Personal-Porfolio.git"
+  },
+  "author": "Mark Alaniz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digald/Full-Stack-Personal-Porfolio/issues"
+  },
+  "homepage": "https://github.com/Digald/Full-Stack-Personal-Porfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
