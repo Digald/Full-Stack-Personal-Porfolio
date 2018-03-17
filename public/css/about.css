@@ -132,16 +132,38 @@ Recognition and Contact section
   list-style-type: none;
 }
 
+.left-forms {
+  margin-bottom: 10px;
+}
+.contact-col a {
+  margin: 0 10px;
+}
+.contact-col i {
+  color: black;
+}
+
+/* ------------------------------------------------------
+Message form
+-----------------------------------------------------------*/
+.main-form {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+.form-control {
+  border: 1px solid black;
+}
 /* ------------------------------------------------------
 Footer
 -----------------------------------------------------------*/
 footer {
   color: white;
   background-color: #3c9cc4;
-  height: 50px;
 }
 footer .icons {
-  text-align: right;
+  text-align: center;
+}
+.my-copy {
+  text-align: center;
 }
 footer a {
   color: white;

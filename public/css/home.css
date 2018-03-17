@@ -92,7 +92,7 @@ nav img {
 }
 
 /* ------------------------------------------------------
-INSTRODUCTION BANNER
+INTRODUCTION BANNER
 -----------------------------------------------------------*/
 .image-banner {
   background-image: url("../images/banner_background.jpeg");
@@ -112,6 +112,12 @@ INSTRODUCTION BANNER
   color: black;
   border: 2px solid black;
 }
+@media only screen and (max-width: 1366px) {
+  .image-banner {
+      background-attachment: scroll;
+  }
+}
+
 /* ------------------------------------------------------
 PORTFOLIO SECTION
 ----------------------------------------------------------*/
@@ -168,17 +174,19 @@ Footer
 -----------------------------------------------------------*/
 footer {
   color: white;
-  background-color: #3C9CC4;
-  height: 50px;
+  background-color: #3c9cc4;
 }
 footer .icons {
-  text-align: right;
+  text-align: center;
+}
+.my-copy {
+  text-align: center;
 }
 footer a {
   color: white;
 }
 footer a:hover {
-  color: #E5EFF4;
+  color: #e5eff4;
   text-decoration: none;
 }
 footer i {
