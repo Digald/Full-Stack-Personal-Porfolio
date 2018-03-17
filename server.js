@@ -23,9 +23,9 @@ app.set("view engine", "handlebars");
 require("./routes/view.js")(app);
 
 // ping heroku
-// setInterval(function() {
-//   https.get("https://runescrape.herokuapp.com/");
-// }, 300000);
+setInterval(function() {
+  https.get("https://markalaniz.herokuapp.com/");
+}, 300000);
 
 // Start the server
 app.listen(PORT, function() {
