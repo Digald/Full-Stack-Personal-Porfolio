@@ -4,7 +4,7 @@ html {
   margin: 0;
   padding-top: 50px;
   color: black;
-  background-color: white;
+  background-color: #E5EFF4;
 }
 
 /* ----------------------------------------------------
@@ -101,12 +101,12 @@ INTRODUCTION BANNER
   background-position: center;
   background-size: cover;
   text-align: center;
-  /* color: back; */
   padding: 100px 0;
 }
 
 .text-border {
   display: inline-block;
+  font-weight: bold;
   padding: 30px 40px;
   font-size: 30px;
   color: black;
@@ -115,6 +115,7 @@ INTRODUCTION BANNER
 @media only screen and (max-width: 1366px) {
   .image-banner {
       background-attachment: scroll;
+      padding: 25px 0;
   }
 }
 
