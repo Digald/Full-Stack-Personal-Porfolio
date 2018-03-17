@@ -37,97 +37,23 @@
     </div>
 </div>
 <div class="container projects">
+    {{#each projects}}
     <div class="row">
         <div class="col">
             <div class="container-p1">
-                <a href="https://rangefront.herokuapp.com/" target="_blank">
-                    <img src="/images/rangefront.jpg" alt="RangeFront Project" class="p1-img">
+                <a href={{link}} target="_blank">
+                    <img src={{image}} alt="Screen shot of {{title}}" class="p1-img">
                     <div class="overlay-p1">
                         <div class="text-p1">
-                            <h1>RangeFront</h1>
-                            <p>Description of RangeFront</p>
+                            <h1>{{name}}</h1>
+                            <p>{{description}}</p>
                         </div>
                     </div>
                 </a>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="container-p1">
-                <a href="https://digald.github.io/BitBay/" target="_blank">
-                    <img src="/images/bitbay.png" alt="Bitbay Project" class="p1-img">
-                    <div class="overlay-p1">
-                        <div class="text-p1">
-                            <h1>BitBay</h1>
-                            <p>Description of BitBay</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="container-p1">
-                <a href="http://runescrape.herokuapp.com/" target="_blank">
-                    <img src="/images/runescrape.png" alt="project1" class="p1-img">
-                    <div class="overlay-p1">
-                        <div class="text-p1">
-                            <h1>RuneScrape</h1>
-                            <p>Description of RuneScrape</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="container-p1">
-                <a href="https://friendfinder235.herokuapp.com/" target="_blank">
-                    <img src="/images/friendfinder.png" alt="project1" class="p1-img">
-                    <div class="overlay-p1">
-                        <div class="text-p1">
-                            <h1>Friend Finder</h1>
-                            <p>Description of Friend finder</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="container-p1">
-                <a href="https://github.com/Digald/Constructor-Hangman" target="_blank">
-                    <img src="/images/constructor-hangman.png" alt="project1" class="p1-img">
-                    <div class="overlay-p1">
-                        <div class="text-p1">
-                            <h1>Constructor Hangman</h1>
-                            <p>Description of hangman</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="container-p1">
-                <a href="https://github.com/Digald/Liri-Node-App" target="_blank">
-                    <img src="/images/liri.png" alt="project1" class="p1-img">
-                    <div class="overlay-p1">
-                        <div class="text-p1">
-                            <h1>Liri Bot</h1>
-                            <p>Description of Liri</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
+    {{/each}}
 </div>
 <!-- Footer -->
 <footer class="py-3">
