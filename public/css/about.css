@@ -4,7 +4,8 @@ html {
   margin: 0;
   padding-top: 30px;
   color: black;
-  background-color: #E5EFF4;
+  background-color: #e5eff4;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ----------------------------------------------------
@@ -12,10 +13,21 @@ NAVBAR CSS
 ----------------------------------------------------*/
 .navbar {
   background-color: #3c9cc4;
+  height: 70px;
+}
+.navbar-brand {
+  font-family: 'Marcellus SC', serif;
+  letter-spacing: 3px;
 }
 .navbar-brand img {
   width: 70px;
+  padding-right: 10px;
 }
+/* Shown nav bar at full screen */
+.nav-item {
+  padding-left: 50px;
+}
+
 /* Navbar collapsed */
 .overlay {
   padding: 0;
@@ -61,6 +73,9 @@ NAVBAR CSS
 }
 
 @media screen and (max-height: 450px) {
+  .navbar-brand img {
+    height: 50px;
+  }
   .overlay {
     overflow-y: auto;
   }
@@ -73,23 +88,7 @@ NAVBAR CSS
     right: 35px;
   }
 }
-/* Shown nav bar at full screen */
-.nav-item {
-  padding-left: 50px;
-}
 
-.navbar {
-  height: 70px;
-}
-nav img {
-  width: 100px;
-  padding-right: 10px;
-}
-.navbar:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 /* ------------------------------------------------------
 About me
 -----------------------------------------------------------*/

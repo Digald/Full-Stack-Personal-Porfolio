@@ -5,6 +5,7 @@ html {
   padding-top: 30px;
   color: black;
   background-color: #E5EFF4;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ----------------------------------------------------
@@ -12,10 +13,21 @@ NAVBAR CSS
 ----------------------------------------------------*/
 .navbar {
   background-color:#3C9CC4;
+  height: 70px;
+}
+.navbar-brand {
+  font-family: 'Marcellus SC', serif;
+  letter-spacing: 3px;
 }
 .navbar-brand img{
   width: 70px;
+  padding-right: 10px;
 }
+
+.nav-item {
+  padding-left: 50px;
+}
+
 /* Navbar collapsed */
 .overlay {
   padding: 0;
@@ -73,23 +85,6 @@ NAVBAR CSS
     right: 35px;
   }
 }
-/* Shown nav bar at full screen */
-.nav-item {
-  padding-left: 50px;
-}
-
-.navbar {
-  height: 70px;
-}
-nav img {
-  width: 100px;
-  padding-right: 10px;
-}
-.navbar:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* ------------------------------------------------------
 INTRODUCTION BANNER
@@ -111,6 +106,8 @@ INTRODUCTION BANNER
   font-size: 30px;
   color: black;
   border: 2px solid black;
+  font-family: 'Marcellus SC', serif;
+  letter-spacing: 3px;
 }
 @media only screen and (max-width: 1366px) {
   .image-banner {
