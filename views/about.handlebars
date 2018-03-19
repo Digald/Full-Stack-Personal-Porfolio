@@ -1,8 +1,7 @@
-<div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn">&times;</a>
+{{!-- <div id="myNav" class="overlay">
     <div class="overlay-content">
         <a href="/">Home</a>
-        <a href="/about">About/Contact</a>
+        <a href="/about">About / Contact</a>
         <a href="#">Services</a>
     </div>
 </div>
@@ -15,11 +14,11 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home/Portfolio
+                    <a class="nav-link" href="/">Home / Portfolio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About/Contact</a>
+                    <a class="nav-link" href="/about">About / Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Extra</a>
@@ -29,35 +28,58 @@
         <a class="navbar-brand" href="#">
             <img src="/images/logo_image.png" alt="">Mark Alaniz</a>
     </div>
-</nav>
+</nav> --}}
 <section class="container main-about">
     <div class="row">
-        <div class="col">
+        <div class="col-md">
             <img class="mypic" src="/images/placeholder1.png" alt="Picture of me">
         </div>
-        <div class="col about-me-text">
+        <div class="col-md about-me-text">
             <p class="about-title">ABOUT MARK ALANIZ</p>
             <p>I’m a computer hardware enthusiast and a full-stack web developer specializing in the MERN stack. I enjoy seeing
                 how my creative abilities and problem solving skills come together in order to build sleek web applications
-                that I can be proud of. Now, I want us both to feel proud of the work we can create together and look forward
-                to forming a team.</p>
+                that I can be proud of. I want us to feel proud of the work we can create together and look forward to forming
+                a team.</p>
             <p>I graduated with honors (summa cum laude) with a degree in geology. After graduating I wanted to find something
-                else I can do to progress my skill set. I decided to start the FreeCodeCamp curriculum </p>
-            <p>Paragraph of text about me</p>
+                else I can do to progress my skill set. I first got started with the FreeCodeCamp curriculum was where I
+                was introduced to Javascript and what being a developer is all about. After many lessions, it sparked the
+                realization that I wanted to take development more seriously and persue it as a career.</p>
+            <p>Besides writing code, meeting new people with similar intrests are always a plus. I enjoy weight lifting a couple
+                of times of week to keep myself active. Gaming online and on the tabletop with friends is also something
+                I always look forward to. When I'm not too tilted or a salt mine, it can be a relaxing way to pass the time.</p>
         </div>
     </div>
 </section>
 <section class="container main-info">
     <div class="row award-contact-heading-line">
-        <div class="col">
+        <div class="col-md">
             <p class="awards-title">SKILLS</p>
-            <ul class="award-list">
-                <li>Thing1</li>
-                <li>Thing2</li>
-                <li>Thing3</li>
-            </ul>
+            <div class="row">
+                <div class="col">
+                    <ul class="award-list">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>React.js</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>Git/Github</li>
+                        <li>Templating</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="award-list">
+                        <li>jQuery</li>
+                        <li>Firebase</li>
+                        <li>CSS Frameworks (BS, Bulma, etc)</li>
+                        <li>APIs, JSON, Ajax</li>
+                        <li>REST</li>
+                        <li>Command Line</li>
+                        <li>Testing (Mocha, Chai)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col contact-col">
+        <div class="col-md contact-col">
             <P class="contact-title">CONTACT</P>
             <p>markalaniz000@gmail.com</p>
             <div class="col icons">
@@ -80,17 +102,17 @@
 <section class="container main-form">
     <form>
         <div class="row">
-            <div class="col">
+            <div class="col-md">
                 <input type="text" class="form-control left-forms" id="nameInput" placeholder="Name*">
                 <input type="email" class="form-control left-forms" id="emailInput" placeholder="Email*">
                 <input type="text" class="form-control left-forms" id="subjetInput" placeholder="Subject">
             </div>
-            <div class="col">
+            <div class="col-md">
                 <textarea class="form-control" id="messageInput" rows="5" placeholder="Message"></textarea>
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-md">
                 <button type="submit" class="btn btn-secondary float-right">Send</button>
             </div>
         </div>
