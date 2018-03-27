@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,54 +9,77 @@
     {{!-- font --}}
     <link href="https://fonts.googleapis.com/css?family=Lato|Marcellus+SC" rel="stylesheet">
     <!-- bootstrap css -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-	 crossorigin="anonymous">
-     <!-- font awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    {{!-- my css --}}
-     <link rel="stylesheet" href="/css/{{css}}" type="text/css">
-     {{!-- jquery --}}
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <!-- bootstrap js -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-	 crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-	 crossorigin="anonymous"></script>
-    {{!-- my js --}}
-     <script src="/js/{{js}}" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> {{!-- my css --}}
+    <link rel="stylesheet" href="/css/{{css}}" type="text/css"> {{!-- jquery --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script> {{!-- my js --}}
+    <script src="/js/{{js}}" type="text/javascript"></script>
 </head>
+
 <body>
     <div id="myNav" class="overlay">
-    <div class="overlay-content">
-        <a href="/">HOME / PORTFOLIO</a>
-        <a href="/about">ABOUT / CONTACT</a>
-        <a href="#">EXTRA</a>
-    </div>
-</div>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container" id="nav-container">
-        <button id="toggle-drop" data-overlay="closed" class="navbar-toggler" type="button" data-toggle="collapse" data-target=""
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">HOME / PORTFOLIO
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">ABOUT / CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">EXTRA</a>
-                </li>
-            </ul>
+        <div class="overlay-content">
+            <a href="/">PORTFOLIO</a>
+            <a href="/about">ABOUT & CONTACT</a>
+            <a href="#">EXTRA</a>
         </div>
-        <a class="navbar-brand" href="#">
-            <img src="/images/logo_image.png" alt="">MARK ALANIZ</a>
     </div>
-</nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container" id="nav-container">
+            <button id="toggle-drop" data-overlay="closed" class="navbar-toggler" type="button" data-toggle="collapse" data-target=""
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">PORTFOLIO
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">ABOUT & CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EXTRA</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo_image.png" alt="">MARK ALANIZ</a>
+        </div>
+    </nav>
     {{{body}}}
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="m-0 text-black my-copy">&copy; 2018 Mark Alaniz</p>
+                </div>
+                <div class="col icons">
+                    <a href="https://twitter.com/Digaduga" target="_blank">
+                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/Digald" target="_blank">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://codepen.io/Digaldo/" target="_blank">
+                        <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/markalaniz/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
 </body>
+
 </html>
