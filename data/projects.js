@@ -14,6 +14,12 @@ exports.projectList = [
     image: "/images/bitbay.png"
   },
   {
+    name: "JoJo's React Adventures",
+    link: "https://digald.github.io/JoJos-React-Adventures/",
+    description: "A single page memory game application built with React.js. This game shows off the basic functionality of React.js by utilizing props, state, and event handlers to take advantage of the virtual DOM.",
+    image: "/images/jojo.jpg"
+  },
+  {
     name: "RuneScrape",
     link: "http://runescrape.herokuapp.com/",
     description:
@@ -26,12 +32,6 @@ exports.projectList = [
     description:
       "Friend Finder is an application where you can answer generic personality questions on a scale of 1(don't agree) to 5(strongly agree). Submiting your information and answers will then match you with someone who also answered similarly. You will be added to the API so that someone in the future can match with you.",
     image: "/images/friendfinder.png"
-  },
-  {
-    name: "Constructor Hangman",
-    link: "https://github.com/Digald/Constructor-Hangman",
-    description: "Hangman game that can be run in the console.",
-    image: "/images/constructor-hangman.png"
   },
   {
     name: "Liri Bot",
