@@ -20,6 +20,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "mandrill-api": "^1.0.45",
+    "node-mandrill": "^1.0.1"
   }
 }
