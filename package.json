@@ -19,9 +19,11 @@
   "homepage": "https://github.com/Digald/Full-Stack-Personal-Porfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mandrill-api": "^1.0.45",
-    "node-mandrill": "^1.0.1"
+    "node-mandrill": "^1.0.1",
+    "nodemailer": "^4.6.4"
   }
 }
