@@ -2,7 +2,7 @@
 INTRODUCTION BANNER
 -----------------------------------------------------------*/
 .image-banner {
-  background-image: url("../images/banner_background.jpeg");
+  background-image: url("../images/architecture.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -16,8 +16,8 @@ INTRODUCTION BANNER
   font-weight: bold;
   padding: 30px 40px;
   font-size: 30px;
-  color: black;
-  border: 2px solid black;
+  color: white;
+  border: 2px solid white;
   font-family: 'Marcellus SC', serif;
   letter-spacing: 3px;
 }

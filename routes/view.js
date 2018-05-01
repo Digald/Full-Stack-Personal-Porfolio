@@ -1,6 +1,5 @@
 var projects = require("../data/projects.js");
 var nodemailer = require('nodemailer');
-var mandrill = require("mandrill-api/mandrill");
 
 module.exports = function(app) {
   app.get("/", function(req, res) {
@@ -17,6 +16,14 @@ module.exports = function(app) {
       title: "About Mark",
       css: "about.css",
       js: "about.js"
+    });
+  });
+
+  app.get('/whymark', function(req, res) {
+    res.render('hire', {
+      title: "Hire Mark",
+      css: 'hire.css',
+      js: 'hire.js'
     });
   });
 
