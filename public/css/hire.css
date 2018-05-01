@@ -1,0 +1,26 @@
+.block-1 {
+  margin-top: 100px;
+}
+
+.header-text-1 {
+  background: #FFA846;
+  color: white;
+  text-align: center;
+}
+
+.block-2 {
+  margin-top: 40px;
+}
+
+.block-3 {
+  margin-top: 40px;
+}
+
+.block-4 {
+  margin: 40px 0;
+}
+
+.block {
+  height: 300px;
+  border: 1px solid grey;
+}
