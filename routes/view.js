@@ -1,4 +1,5 @@
 var projects = require("../data/projects.js");
+var hireme = require('../data/hireme.js');
 var nodemailer = require('nodemailer');
 
 module.exports = function(app) {
@@ -23,7 +24,8 @@ module.exports = function(app) {
     res.render('hire', {
       title: "Hire Mark",
       css: 'hire.css',
-      js: 'hire.js'
+      js: 'hire.js',
+      hireme: hireme.hireme
     });
   });
 
