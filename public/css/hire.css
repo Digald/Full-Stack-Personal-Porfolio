@@ -2,10 +2,17 @@
   margin-top: 100px;
 }
 
+.block-2 {
+  margin-bottom: 100px;
+}
+
 .header-space-1 {
   font-family: "Marcellus SC", serif;
-  background: #FFA846;
+  background: #024B6A;
   color: white;
+  text-align: center;
+}
+.info-space-1 {
   text-align: center;
 }
 
@@ -14,17 +21,34 @@
 }
 .header-space-2 {
   font-family: "Marcellus SC", serif;
-  background-color: #39D277;
+  background-color: #000F15;
   color: white;
   text-align: center;
 }
 
 .block {
-  height: 300px;
   border: 1px solid grey;
 }
 
 .header-text {
   position: relative;
-  top: 40%;
+  padding: 100px 0 75px 0;
+}
+
+.block-banner {
+  background-image: url('../images/nightline.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.link-to-contact {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .header-text {
+    padding: 40px 0 20px 0;
+  }
 }
