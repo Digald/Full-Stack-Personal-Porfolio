@@ -1,10 +1,11 @@
 $(document).ready(function() {
-    $('#submit-form').on('click', function(e){
+    $('#contact-form').on('submit',function(e){
         e.preventDefault();
         var name = $("#nameInput").val().trim();
         var email = $("#emailInput").val().trim();
         var subject = $("#subjectInput").val().trim();
         var message = $('#messageInput').val().trim();
+        console.log(name);
         $("#nameInput").val('');
         $("#emailInput").val('');
         $("#subjectInput").val('');

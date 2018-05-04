@@ -35,8 +35,6 @@ module.exports = function(app) {
         pass: process.env.PASS
       }
     });
-    console.log(process.env.EMAIL);
-    console.log(process.env.PASS);
     var mailOptions = {
       from: 'markalaniz000@gmail.com',
       to: 'markalaniz000@gmail.com',
