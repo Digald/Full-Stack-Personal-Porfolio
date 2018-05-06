@@ -29,7 +29,6 @@ $(document).ready(function() {
         message: message
       }
     }).done(function(res) {
-      console.log(res);
       if (res.mailSent) {
         $(".message-1").hide();
         $("#contact").append(

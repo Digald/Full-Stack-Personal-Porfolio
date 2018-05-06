@@ -4,13 +4,18 @@ TEXT SECTIONS
 .block {
   border: 1px solid grey;
 }
-
+.block a {
+  color: #FFA846;
+}
 .header-text {
   position: relative;
   padding: 100px 0 75px 0;
   text-align: center;
 }
 
+.main-text-content {
+  padding: 5%;
+}
 .block-1 {
   margin-top: 100px;
 }
