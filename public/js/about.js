@@ -5,7 +5,6 @@ $(document).ready(function() {
         var email = $("#emailInput").val().trim();
         var subject = $("#subjectInput").val().trim();
         var message = $('#messageInput').val().trim();
-        console.log(name);
         $("#nameInput").val('');
         $("#emailInput").val('');
         $("#subjectInput").val('');
