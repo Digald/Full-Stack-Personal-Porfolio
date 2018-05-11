@@ -17,6 +17,9 @@ About me
 .about-me-text {
   text-align: center;
 }
+.currently-working-on {
+  font-weight: bold;
+}
 /* ------------------------------------------------------
 Recognition and Contact section
 -----------------------------------------------------------*/
