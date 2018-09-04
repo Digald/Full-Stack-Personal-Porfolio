@@ -1,5 +1,12 @@
 exports.projectList = [
   {
+    name: "Mark's Body Works",
+    link: "https://github.com/Digald/marks-body-works",
+    description:
+      "This full-stack application is a collection of my favorite weightlifting programs all in one place best suited for an intermitiate lifters. Meteor handles all of the user's data in the backend while the React front-end renders your program fast and smoothly.",
+    image: "/images/body-works.png"
+  },
+  {
     name: "RangeFront",
     link: "https://rangefront.herokuapp.com/",
     description:
@@ -16,7 +23,8 @@ exports.projectList = [
   {
     name: "JoJo's React Adventures",
     link: "https://digald.github.io/JoJos-React-Adventures/",
-    description: "A single page memory game application built with React.js. This game shows off the basic functionality of React.js by utilizing props, state, and event handlers to take advantage of the virtual DOM. Click here for the demo.",
+    description:
+      "A single page memory game application built with React.js. This game shows off the basic functionality of React.js by utilizing props, state, and event handlers to take advantage of the virtual DOM. Click here for the demo.",
     image: "/images/jojo.jpg"
   },
   {
@@ -32,11 +40,5 @@ exports.projectList = [
     description:
       "Friend Finder is an application where you can answer generic personality questions on a scale of 1(don't agree) to 5(strongly agree). Submiting your information and answers will then match you with someone who also answered similarly. You will be added to the API so that someone in the future can match with you. Click here for the demo.",
     image: "/images/friendfinder.png"
-  },
-  {
-    name: "Liri Bot",
-    link: "https://github.com/Digald/Liri-Node-App",
-    description: "A Siri-inspired clone that takes in predefined node command-line commands and returns data to the user. Click here for the github repo.",
-    image: "/images/liri.png"
   }
 ];
