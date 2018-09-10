@@ -3,7 +3,7 @@ exports.projectList = [
     name: "Mark's Body Works",
     link: "https://github.com/Digald/marks-body-works",
     description:
-      "As a work in progress, this full-stack application is a collection of my favorite weightlifting programs all in one place best suited for an intermediate lifters. Meteor handles all of the user's data in the backend while the React front-end renders your program fast and smoothly.",
+      "As a work in progress, this full-stack application is a collection of my favorite weightlifting programs all in one place best. It's best suited for intermediate lifters. Meteor handles all of the user's data in the backend while the React front-end renders your program quick and smoothly.",
     image: "/images/body-works.png"
   },
   {
